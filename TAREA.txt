@@ -1,0 +1,14 @@
+1. Iniciamos el repositorio con el comando
+git init
+2. Agregamos archivos con el comando
+git add .
+3. Configuramos el usuario y el correo
+git config -- usuario global.email jvinces5528@gmail.com
+git config --usuario global.nombre de usuario "vinces07"
+4. Añadimos direccion del repositorio
+git remote add https://github.com/vinces07/tareas.git 
+5. subimos los archivos con el comando 
+git branch -M main
+git push -u origin main
+
+Nombres: Vinces Posligua Juan Slyner 

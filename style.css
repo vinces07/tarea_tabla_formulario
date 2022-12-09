@@ -1,0 +1,18 @@
+.tarea_tabla{
+    justify-content: center;                       /*CENTRAMOS LA TABLA*/                       
+    display:flex;
+    height: 200px;;
+}
+.fondo{
+    background-color: rgba(231, 231, 64, 0.938); /*AGREGAMOS COLOR A LA TABLA*/
+    font-family: 'Times New Roman';                /*CAMBIAMOS FUENTE DE LETRA*/
+    text-align: center;                            /*CENTRAMOS EL TEXTO DENTRO DE LA TABLA*/
+    font-size: 20px;
+}
+.formulario{
+    background-color: rgb(81, 81, 240);          /*UBICAMOS COLOR DE FONDO AL FORMULARIO*/
+}
+input{
+    font-size: 20px;                               /*CAMBIAMOS EL TAMAÑO DE LA FUENTE DE LETRAA*/
+    font-family: 'Times New Roman';                 /*CAMBIAMOS LA FUENTE DE LETRA*/
+}

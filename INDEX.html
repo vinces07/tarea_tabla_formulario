@@ -1,0 +1,63 @@
+<!--ESTRUCTURA BASICA DE UN DOCUMENTO HTML-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAREA DE DESARROLLO DE SISTEMAS INFORMATICOS</title>             <!--TITULO-->
+    <link rel="stylesheet" href="style.css"> <!--ENLAZAMOS HOJA DE DISEÑO-->
+    <!--CREACION DE TABLAS -->
+</head>
+<body>
+    <div class="tarea_tabla">
+   <table class="fondo" border="5px solid black">
+    <tr>
+        <th>N° DE SOCIOS</th>
+        <th>APELLIDOS</th>
+        <th>NOMBRES</th>
+        <th>CIUDAD</th>
+        <th>FECHA INICIO</th>
+    </tr>
+    <tr>
+        <td>2423</td>
+        <td>PEREZ MARTÍNEZ</td>
+        <td>JUAN JOSE</td>
+        <td>PORTOVIEJO</td>
+        <td>2022-11-01</td>
+    </tr>
+    <tr>
+        <td>4438</td>
+        <td>MARTÍNEZ GÓMEZ</td>
+        <td>MARÍA BEATRIZ</td>
+        <td>MANTA</td>
+        <td>2022-01-01</td>
+    </tr>
+    <tr>
+        <td>4334</td>
+        <td>GÓMEZ RODRÍGUEZ</td>
+        <td>CARLOS ALBERTO</td>
+        <td>CHONE</td>
+        <td>2022-05-01</td>
+    </tr>
+    <tr>
+        <td>4523</td>
+        <td>RODRÍGUEZ MORENO</td>
+        <td>SOFÍA ANA</td>
+        <td>BAHÍA</td>
+        <td>2022-02-01</td>
+    </tr>
+  </table>
+</div>
+<div class="formulario">
+    <form action="guardar.php" method="post" enctype="multipart/form"><br>
+        <input type="text" name="NOMBRES"  id="NOMBRES" placeholder="INGRESAR SUS NOMBRES"><br>
+        <input type="text" name="APELLIDOS"  id="APELLIDOS" placeholder="INGRESAR SUS APELLIDOS"><br>
+        <input type="text" name="CIUDAD"  id="CIUDAD" placeholder="INGRESAR LA CIUDAD"><br>
+        <input type="date" name="FECHA DE INICIO"><br>
+        <input type="file" name="FOTO"><br>
+        <input type="file" name="COMPROBANTE DE PAGO"><br>
+    </form>
+</div>
+</body>
+</html>
